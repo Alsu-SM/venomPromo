@@ -1,0 +1,95 @@
+body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.blood {
+  background: url('../img/blood.png') no-repeat top right, #14131a;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  /* выравнивание по центру */
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+.logo-link {
+  display: inline-block;
+  /* чтобы ссылка занимала столько же место, сколько логотип */
+  margin-right: 50px;
+}
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* убираем точки */
+  display: flex;
+}
+
+.nav-menu-item {
+  margin-right: 30px;
+}
+.nav-menu-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.film-date {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 38px;
+}
+
+.film-description {
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 423px;
+  margin-top: 40px;
+}
+
+.button-group {
+  margin-top: 70px;
+}
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-text,
+.button-icon {
+  display: inline-block;
+  vertical-align: middle;
+  /* текст и иконка выравниваются относительно друг друга по вертикали */
+}
+
+.button-text {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+}
+
+.button-primary {
+  color: #8d0019;
+  background: #fff;
+}
+
+.button-link {
+  color: #fff;
+}
